@@ -1,0 +1,14 @@
+.icon {
+	padding: 10px;
+}
+.icon.is-active {
+	background: #F88285;
+}
+.icon.is-inactive {
+	background: #4B5F81;
+}
+@media (max-width: 480px) {
+	.icon {
+		padding: 0;
+	}
+}

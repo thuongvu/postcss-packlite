@@ -1,0 +1,17 @@
+$pink: #F88285;
+$blue: #4B5F81;
+
+@define-mixin icon $status, $color {
+	&.is-$status {
+		background: $color;
+	}
+}
+
+.icon {
+	@mixin icon active, $pink;
+	@mixin icon inactive, $blue;
+	padding: 10px;
+	@media (max-width: 480px) {
+		padding: 0;
+	}
+}

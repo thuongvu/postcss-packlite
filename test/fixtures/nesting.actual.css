@@ -1,0 +1,9 @@
+.foo .bar {
+
+    width: 100px;
+}
+
+.foo.bar {
+
+    width: 200px;
+}

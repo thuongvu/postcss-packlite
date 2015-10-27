@@ -1,0 +1,9 @@
+.home a {
+    color: red
+}
+.home a:visited {
+    color: yellow
+}
+.home a:hover {
+    color: orange
+}

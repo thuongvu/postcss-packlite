@@ -1,0 +1,14 @@
+@define-mixin link $link, $visited, $hover {
+	a {
+		color: $link;
+	}
+	a:visited {
+		color: $visited;
+	}
+	a:hover {
+		color: $hover;
+	}
+}
+.home {
+	@mixin link red, yellow, orange;
+}
