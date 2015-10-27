@@ -129,6 +129,7 @@ $full-width: 100px;
 
 ## Usage
 
+Run `npm install postcss-packlite`
 ```js
 postcss([ require('postcss-packlite') ])
 ```
