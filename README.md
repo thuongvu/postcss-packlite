@@ -132,5 +132,3 @@ $full-width: 100px;
 ```js
 postcss([ require('postcss-packlite') ])
 ```
-
-See [PostCSS] docs for examples for your environment.

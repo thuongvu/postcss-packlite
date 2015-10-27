@@ -1,6 +1,6 @@
 {
   "name": "postcss-packlite",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin bundle that includes imports, variables, mixins, and nesting",
   "keywords": [
     "postcss",
